@@ -65,7 +65,10 @@ body {
     color: grey;
 }
 
-
-
-
 /* List Section */
+.list-area{
+    background-color: white;
+    margin-top: 2px;
+    padding: 30px;
+
+}
