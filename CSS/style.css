@@ -10,7 +10,7 @@
     margin: 0 auto;
 
     /* debug */
-/* background-color: aqua;
+    /* background-color: aqua;
 height: 500px; */
 }
 
@@ -40,16 +40,16 @@ body {
 }
 
 /* Bottom Section */
-.bottom-area{
+.bottom-area {
     background-color: white;
-    margin-top: 30px;   
-    padding: 20px; 
-    font-family: Arial, Helvetica, sans-serif;  
+    margin-top: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 
 .task-bottom {
-    background-color:rgb(32, 187, 214);
+    background-color: rgb(32, 187, 214);
     padding: 10px 10px;
     border-radius: 20%;
     color: white;
@@ -57,7 +57,7 @@ body {
 }
 
 .section-bottom {
-    background-color:white;
+    background-color: white;
     padding: 10px 10px;
     border: 1px solid;
     border-radius: 20%;
@@ -66,9 +66,46 @@ body {
 }
 
 /* List Section */
-.list-area{
+.list-area {
     background-color: white;
     margin-top: 2px;
     padding: 30px;
 
+}
+
+ul {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.general-option{
+    color: white;
+    font-size: 10px;    
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.blue-op{
+    background-color:  rgb(32, 187, 214);
+}
+
+.violet-op{
+    background-color: violet;
+}
+
+.dark-green-op{
+    background-color: darkgreen;
+}
+
+.orange-op{
+    background-color: orange;
+}
+
+.pink-op{
+    background-color: pink;
+}
+
+.light-green.op.op{
+    background-color: lightgreen;
 }
