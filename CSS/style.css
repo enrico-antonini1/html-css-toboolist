@@ -38,3 +38,34 @@ body {
     padding: 10px 0;
     background-color: white;
 }
+
+/* Bottom Section */
+.bottom-area{
+    background-color: white;
+    margin-top: 30px;   
+    padding: 20px; 
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 12px;
+}
+
+.task-bottom {
+    background-color:rgb(32, 187, 214);
+    padding: 10px 10px;
+    border-radius: 20%;
+    color: white;
+    margin-left: 20px;
+}
+
+.section-bottom {
+    background-color:white;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 20%;
+    border-color: gray;
+    color: grey;
+}
+
+
+
+
+/* List Section */
