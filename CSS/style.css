@@ -78,7 +78,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.stats{
+.stats {
     display: inline-block;
     background-color: white;
     height: 20px;
@@ -89,41 +89,49 @@ ul {
     line-height: 20px;
 }
 
-.cross{
+.cross {
     color: red;
 }
 
-.check{
+.check {
     color: green;
 }
 
-.general-option{
+.general-option {
     color: white;
-    font-size: 10px;    
+    font-size: 10px;
     padding: 5px;
     border-radius: 50%;
 }
 
-.blue-op{
-    background-color:  rgb(32, 187, 214);
+.blue-op {
+    background-color: rgb(32, 187, 214);
 }
 
-.violet-op{
+.violet-op {
     background-color: darkviolet;
 }
 
-.dark-green-op{
+.dark-green-op {
     background-color: darkgreen;
 }
 
-.orange-op{
+.orange-op {
     background-color: orange;
 }
 
-.pink-op{
+.pink-op {
     background-color: pink;
 }
 
-.light-green-op{
+.light-green-op {
     background-color: lightgreen;
+}
+
+.margin-title {
+    margin-top: 30px;
+}
+
+.margin-list {
+    margin-top: 15px;
 }
