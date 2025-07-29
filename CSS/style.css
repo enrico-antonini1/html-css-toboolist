@@ -5,9 +5,14 @@
     box-sizing: border-box;
 }
 
+/* DISPLAY */
 .container {
+    /* assegno una larghezza contenuto in % fissa rispetto alla pagina web */
     width: 80%;
+    /* centro il contenuto nella pagina */
     margin: 0 auto;
+
+    /* posso dare un max sulla larghezza usando max-width: 900 px */
 
     /* debug */
     /* background-color: aqua;
@@ -18,6 +23,53 @@ body {
     background-color: lightgray;
 }
 
+
+/* Buttons */
+.bottom-area {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+.btn {
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.task-bottom {
+    background-color: rgb(32, 187, 214);
+    border-color: rgb(32, 187, 214);
+    color: white;
+    margin-left: 20px;
+}
+
+.section-bottom {
+    background-color: white;
+    border-color: gray;
+    color: grey;
+}
+
+/* Utilities */
+
+/* Qui scrivo classi utili che uso molto, ma una utility lavora su una sola proprietà alla volta */
+/* .px-20 {
+padding-left: 20px;
+padding-right: 20px;
+} */
+
+/* .py-10 {
+padding-top: 10px;
+padding-bottom: 10px;
+} */
+
+/* bg-white {
+background-color: white
+} */
+
 /* HEADER */
 .logo-header img {
     width: 50px;
@@ -27,7 +79,8 @@ body {
 .logo-header span {
     vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: 600;
 }
 
 .logo-header {
@@ -39,31 +92,9 @@ body {
     background-color: white;
 }
 
-/* Bottom Section */
-.bottom-area {
-    background-color: white;
-    margin-top: 30px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
 
-.task-bottom {
-    background-color: rgb(32, 187, 214);
-    padding: 10px 10px;
-    border-radius: 20%;
-    color: white;
-    margin-left: 20px;
-}
 
-.section-bottom {
-    background-color: white;
-    padding: 10px 10px;
-    border: 1px solid;
-    border-radius: 20%;
-    border-color: gray;
-    color: grey;
-}
+
 
 /* List Section */
 .list-area {
@@ -78,7 +109,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.stats {
+.circle {
     display: inline-block;
     background-color: white;
     height: 20px;
@@ -100,8 +131,9 @@ ul {
 .general-option {
     color: white;
     font-size: 10px;
-    padding: 5px;
-    border-radius: 50%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
 }
 
 .blue-op {
